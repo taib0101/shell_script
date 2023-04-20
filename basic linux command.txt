@@ -1,0 +1,27 @@
+taib@taib-stoner:~$ [cd ~/Documents] [cd / ] [cd /root] [cd] 
+taib@taib-stoner:~$ [ls] [ls -a] [ls -l] [ls -al] [ls -R / ] [ls -F] 
+taib@taib-stoner:~$ [cat > taib.txt] [cat taib.txt] [cat >> taib.txt] 
+taib@taib-stoner:~$ [echo "hello taib" > taib.txt] [echo "what about marijuana" >> taib.txt] [echo -n "here is some cmd " >> taib.txt && echo -e 
+"for life\n" >> taib.txt]
+taib@taib-stoner:~$ [nano make.sh] [pico make.sh] && chmod +x make.sh && ./make.sh
+taib@taib-stoner:~$ pwd
+taib@taib-stoner:~$ [cp make.sh /home/taib/Documents] [cp make.sh /shr/usr] [cp ~/Documents] [cp /home/taib/make.sh ~/Documents]
+[cp -i make.sh ~/Documents] 
+taib@taib-stoner:~$ [mv  /home/taib/make.sh ~/Documents] [mv *.txt /]
+taib@taib-stoner:~$ touch taib.txt
+taib@taib-stoner:~$ mkdir taib
+taib@taib-stoner:~$ [rm taib.txt] [rm *.txt] [rm *]
+taib@taib-stoner:~$ [rmdir taib] [rm -rf taib]
+taib@taib-stoner:~$ cat taib.txt | grep "hello" taib.txt
+taib@taib-stoner:~$ [cat taib.txt | head -10 taib.txt] [cat taib.txt | tail -10 taib.txt]
+taib@taib-stoner:~$ watch free -h
+taib@taib-stoner:~$ [ps aux]
+taib@taib-stoner:~$ id
+taib@taib-stoner:~$ [which cat] [which ls] [which google-chrome]
+taib@taib-stoner:~$ [whatis cat] [whatis cat]
+taib@taib-stoner:~$ [man cat] [man ls]
+taib@taib-stoner:~$ [find / -name bin] [find ~/ -name taib]
+taib@taib-stoner:~$ [nano taib.sh] [pico taib.sh]
+taib@taib-stoner:~$
+taib@taib-stoner:~$
+taib@taib-stoner:~$
