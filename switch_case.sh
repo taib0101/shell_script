@@ -8,7 +8,20 @@ case "$ans" in
         echo "You need to 18+ age"
     ;;
     *)
-        echo "Wrong Input .. Input right input again"
+        echo "Wrong Input ..input again"
     ;;
 esac
     
+read -p "take a name " name
+
+case "$name" in
+    "taib" | "brother" | [a-z] | [0-8] | [A-Z])
+        echo "hello $name"
+    ;;
+    "mother")
+        echo "hola $name"
+    ;;
+    *)
+        echo "you are not our guy, just leave"
+    ;;
+esac
