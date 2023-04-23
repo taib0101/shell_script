@@ -10,8 +10,8 @@ echo "sum = $x"
 function sub
 {
     local sub=$(($1-$2))
-    echo "$sub"
+    echo "$sub" #we return as like echo
 }
-
-subb=$(sub 5 6)
-echo "returned sub = $subb"
+# $(sub 5 6) -> this is also valid
+# subb=$(sub 5 6) -> this is also valid
+echo "returned sub = $(sub 5 6)" #this is also valid
