@@ -25,6 +25,7 @@ echo -n "Enter another integer : "
 read y
 
 if [ "$x" -ge "$y" ]
+# if [ "$x" -ge "$y" -a "$x" -gt "$y" ] ---> -a means and operation, -o means or operation
 then
     if [ "$x" -gt "$y" ]
     then
