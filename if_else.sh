@@ -5,10 +5,11 @@
 read -p "Enter a string : " str1
 read -p "Enter another string : " str2
 
-if [ str1 == str2 ]
+if [ "$str1" == "$str2" ]
+# if (( "$str1" == "$str2" )) it's also a valid if_else condition
 then
     echo -e "String are equal \n"
-elif [ str1 != str2 ]
+elif [ "$str1" != "$str2" ]
 then
     echo -e "String are not equal \n"
 else
