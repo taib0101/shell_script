@@ -1,7 +1,15 @@
 function add
 {
     local sum=$(( $1 + $2 ))
-    echo "sum = $sum"
+    echo $sum
+
+    function jog
+    {
+        return $(($1+$2))
+    }
+    jog 5 5
+    inner_sum=$?
+    echo "inner_sum : $inner_sum"
 }
 
 x=$(add 5 6)
