@@ -33,3 +33,8 @@ echo "declear a my_array with size"
 my_array=($(seq 1 10))
 
 echo "size of declearing my_array = ${#my_array[@]}"
+
+echo "Now clear the array"
+
+unset my_array #using unset we clear  the array
+echo "after clearing size of my_array = ${#my_array[@]}"
