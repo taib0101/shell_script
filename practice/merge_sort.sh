@@ -12,7 +12,7 @@ function merge_sort
     merge_sort "$ll" "$mid"
     merge_sort "$(($mid+1))" "$hh"
     # echo "llow = $ll,hhigh = $hh,mmid = $mid"
-    local tmp=($(seq $l $(($h+1))))
+    local tmp=($(seq $l $(($h+1)))) #declearing array size
     echo "array = ${arr[@]}"
     for((i=$ll,j=$(($mid+1)),k=$ll; "$k" <= "$hh"; ++k))
     do
