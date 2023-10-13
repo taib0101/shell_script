@@ -1,0 +1,12 @@
+//I seek refuged with Allah,from the accursed devil
+//In the name of Allah,the Lord of Mercy,the Giver of Mercy
+1.[] -> matches single character in a single set
+|
+|-> Example:echo "cow,bow" |  grep -E -o "[cb]ow"
+|-> i get cow,bow
+|-> Example:echo "cowjin,bowrin,cowkin" | grep -E -o "[cb]ow[jr]in"
+|-> i get cowjin,bowrin
+2.[] with hyphen -> matches single character given range in a single set
+which represent with hyphen
+|-> Example : echo "023taib" | grep -E -o "[0-9]ta"
+|-> i get 3ta 
